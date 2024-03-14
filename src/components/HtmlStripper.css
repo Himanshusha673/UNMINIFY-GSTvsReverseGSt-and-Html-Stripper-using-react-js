@@ -1,0 +1,139 @@
+/* HtmlStripper.css */
+
+.html-stripper {
+    margin-top: 20px;
+    display:flex ;
+    flex-direction: column;
+    background-color: #fff;
+    width:  100%;
+    margin-bottom: 10%;
+
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 10px; /* Add border radius for rounded corners */
+  }
+  .textfield {
+    display: flex;
+    min-height: 300px;
+    margin-bottom: 10px;
+    padding: 10px; /* Add padding for better text input appearance */
+ 
+  }
+  
+  .html-stripper textarea {
+    width: 100%;
+    display: flex;
+    min-height: 300px;
+
+    flex-direction: row;
+    margin-bottom: 10px;
+    padding: 10px; /* Add padding for better text input appearance */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    border: 1px solid #ccc; /* Add border for clarity */
+  }
+  
+  .html-stripper .options {
+    display: flex;
+    margin-top: 20px;
+  
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .html-stripper .options label {
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  .html-stripper .strip-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px; /* Add margin between buttons */
+  }
+  
+  .html-stripper .copy-button {
+    padding: 10px 20px;
+    background-color: grey; /* Different background color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .html-stripper button:hover {
+    background-color: #0056b3;
+  }
+  
+  .html-stripper #outputContainer {
+    display: none;
+    margin-top: 20px;
+    min-height: 300px;
+  }
+  
+  .html-stripper #outputContainer.active {
+    display: block;
+  }
+  
+  .html-stripper h2 {
+    margin-bottom: 10px;
+  }
+  
+  .html-stripper .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+
+  #submitButton {
+    display: flex;
+justify-content: center;
+flex-direction: row;
+
+
+  }
+
+  
+
+/* CSS */
+.button-63 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}

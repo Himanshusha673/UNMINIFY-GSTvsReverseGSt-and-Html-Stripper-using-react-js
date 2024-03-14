@@ -1,0 +1,129 @@
+/* App.css */
+
+/* Main container styles */
+.App {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #43d0c2f3, #06a4e3, #34ff8c);
+
+  padding: 0;
+}
+
+.tab-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.App nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  border-radius: 0px 0px 10px 10px;
+  justify-content: start;
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+.tabs {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+}
+
+.tabs.active {
+  text-decoration: underline;
+  color: red;
+}
+
+.App nav img {
+  align-items: center;
+  margin: 10px;
+  margin-left: 10%;
+  width: 100px;
+  height: auto;
+  background-color: #f8f9fa;
+}
+
+/* Header styles */
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 100px;
+  color: #343a40;
+}
+
+/* Input textarea styles */
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 16px;
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  margin: 20px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Output container styles */
+#outputContainer {
+  display: none;
+  width: 100%;
+}
+
+/* Output heading styles */
+#outputContainer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+/* Output textarea styles */
+#outputContainer textarea {
+  width: 100%;
+  min-height: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 16px;
+}
+
+
+
+/* Improve button hover effect */
+button:hover {
+  background-color: #0056b3;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Style the footer */
+footer {
+  padding: 20px;
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+}

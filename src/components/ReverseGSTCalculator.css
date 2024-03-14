@@ -1,0 +1,42 @@
+.Reverse-calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.singleRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.singleRow label,
+.singleRow select,
+.singleRow input {
+    margin: 0 10px;
+}
+
+.Reverse-calculator label {
+    margin: 10px 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin: 100px;
+    align-content: center;
+
+ padding: 10px;
+    border: 1px solid #070606;
+  border-radius: 20px;
+}
+.content img{
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+}
